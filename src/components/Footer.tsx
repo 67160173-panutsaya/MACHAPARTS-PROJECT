@@ -49,7 +49,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
-              <img src="/machaparts-logo.png" alt="MACHAPARTS" className="w-12 h-12 object-contain" />
+              <img
+                src={`${import.meta.env.BASE_URL}machaparts-logo.png`}
+                alt="MACHAPARTS"
+                className="w-12 h-12 object-contain"
+              />
               <span className="text-white font-extrabold text-xl tracking-wide">MACHAPARTS</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-xs">

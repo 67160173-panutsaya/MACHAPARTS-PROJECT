@@ -37,7 +37,7 @@ export default function Navbar({ searchQuery, onSearchChange }: NavbarProps) {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group flex-shrink-0">
             <img
-              src="/machaparts-logo.png"
+              src={`${import.meta.env.BASE_URL}machaparts-logo.png`}
               alt=""
               className="w-11 h-11 object-contain transition-transform group-hover:scale-105"
             />
